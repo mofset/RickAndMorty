@@ -1,0 +1,51 @@
+name: rick_and_morty
+description: RickAndMorty project
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  retrofit: ^4.0.1
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  mobx: ^2.2.0
+  flutter_mobx: ^2.0.6+5
+  freezed: ^2.3.5
+  dio: ^5.2.1+1
+  pretty_dio_logger: ^1.3.1
+  get_it: ^7.6.0
+  injectable: ^2.1.2
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.8.1
+  path_provider: ^2.0.15
+  connectivity_plus: ^4.0.1
+  cached_network_image: ^3.2.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.6
+  injectable_generator: ^2.1.6
+  json_serializable: ^6.7.1
+  isar_generator: ^3.1.0+1
+  retrofit_generator: ^7.0.7
+  mobx_codegen: ^2.3.0
+
+flutter:
+  uses-material-design: true
+
+assets:
+  - .env
+
+  - assets/images/no_image_available.png
